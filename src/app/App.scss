@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import '../theme/theme.scss';
+@import "bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: "SoundSurfer";
+    src: local("SoundSurfer"), url("../assets/fonts/roblox/Roblox.ttf") format("truetype");
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+    background-color: rgb(14, 14, 14);
+    color: rgb(243 244 246);
+}
+
+main {
+    display: block;
+    
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+    font-family: "Montserrat", sans-serif; 
+    text-decoration: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.main {
+    &__container {
+        display: block;
+        &__loading {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+    }
+}
