@@ -3,6 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import { LoadingBars } from "../components/LoadingBars";
 import client from "../shared/spotify-client";
 import { PlayerContext } from "../context/PlayerContext";
+import Player from "../components/Player";
 import "./App.scss";
 
 import Layout from "../theme/Layout";

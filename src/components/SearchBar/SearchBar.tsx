@@ -27,6 +27,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch, placeholder }: SearchBa
                     <span>search some waves to surf ~</span>
                 </label>
             </form>
+            {searchTerm}
         </div>
     );
 };
